@@ -3,7 +3,6 @@ import json
 from pathlib import Path
 from phi.assistant.duckdb import DuckDbAssistant
 from dotenv import load_dotenv
-import pandas as pd
 from apify_client import ApifyClient
 import os
 

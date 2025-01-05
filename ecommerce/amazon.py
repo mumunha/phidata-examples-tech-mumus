@@ -4,7 +4,6 @@ import json  # Para trabalhar com dados JSON
 from pathlib import Path  # Para lidar com caminhos de arquivos
 from phi.assistant.duckdb import DuckDbAssistant  # Para análise de dados
 from dotenv import load_dotenv  # Para carregar variáveis de ambiente
-import pandas as pd  # Para visualização de dados
 from apify_client import ApifyClient  # Para conectar com a API do Apify
 import os  # Para acessar variáveis de ambiente
 
